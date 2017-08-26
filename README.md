@@ -1,26 +1,22 @@
 
-#
-# whutshmup - a shoot-em-up game by Tobias Olausson (tobsan@tobsan.se)
-#
-# Running requirements:
-# * python 2.x
-# * numpy or scipy libraries
-# * pygame 1.9 or above 
-#
+# whutshmup - a shoot-em-up game written in pygame
 
-#
-# Source material, inspiration etc
-#
+## Running requirements:
+* python 2.x
+* numpy or scipy libraries
+* pygame 1.9 or above 
 
+
+
+## Source material, inspiration etc
 * Vec2d.py from the pygame wiki (source)
 * Shadows.py from the pygame wiki (source)
 * The creeps (source inspiration) from http://eli.thegreenplace.net/2008/12/13/writing-a-game-in-python-with-pygame-part-i/
 * The game Loveless, by Monokey (inspiration): https://www.allegro.cc/depot/Loveless
 * The Resources cache: http://stackoverflow.com/questions/17615447/pre-loading-images-pygame
 
-# 
-# Licensing
-# 
+
+## Licensing
 
 The source code (except Shadows.py and Vec2d.py) is licensed as GPLv3, and the
 file COPYING contains the full text of the license.
@@ -46,10 +42,10 @@ this:
                       distribute the resulting work only under the same or 
                       similar license to this one.
 
-Exceptions:
+### Exceptions:
 * The crate is placed in the public domain
 
-Attribution:
+### Attribution:
 * Kaboldy (http://commons.wikimedia.org/wiki/User:Kaboldy) for Gripen and X47-B
 * mysid (https://en.wikipedia.org/wiki/User:Mysid) for the keyboard. 
 * Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome for
@@ -61,10 +57,7 @@ of their tracks.
 Sound effects are created by myself using the sfxr utility, which can be found
 here: http://www.drpetter.se/project_sfxr.html. They are also under CC-BY-SA 
 
-
-# 
-# Thanks to
-#
+## Thanks to
 
 pippy in #pygame on freenode, for helping debugging delays in sound effects.
 
